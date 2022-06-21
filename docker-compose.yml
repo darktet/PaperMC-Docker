@@ -9,7 +9,7 @@ services:
     volumes:
       - "/opt/mcdocker/ultraserver:/data:rw"
     ports:
-      - "25565:35560"
+      - "25565:25565"
     # The following allow `docker attach minecraft` to work
     stdin_open: true
     tty: true
